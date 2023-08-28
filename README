@@ -1,0 +1,10 @@
+# Computação Gráfica - Tutorial Instalação e Configuração
+
+
+## Instalação
+    - Instalação MSYS e MingW: https://www.prinmath.com/csci5229/misc/install.html
+    - Vídeo Complementar: https://www.youtube.com/watch?v=jfVqzNU3gPg
+
+## Utilização
+    - Compilar: gcc -Wall -DUSEGLEW -o <arquivo> <arquivo>.c -lfreeglut -lglew32 -lglu32 -lopengl32 -lm
+    - Executar: .\<arquivo>
