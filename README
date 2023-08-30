@@ -8,3 +8,5 @@
 ## Utilização
     - Compilar: gcc -Wall -DUSEGLEW -o <arquivo> <arquivo>.c -lfreeglut -lglew32 -lglu32 -lopengl32 -lm
     - Executar: .\<arquivo>
+    - Se estiver executando via VSCODE, lembre-se de instalar a extensão "C/C++" e incluir nas configurações da extensão
+    o header da lib do Freeglut
