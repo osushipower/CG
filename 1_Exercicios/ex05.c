@@ -147,7 +147,7 @@ int main(int argc, char **argv)
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
     glutInitWindowSize(500, 500);
-    glutCreateWindow("CG - Exercicio 3");
+    glutCreateWindow("CG - Exercicio 5");
     glutDisplayFunc(display);
     glutMouseFunc(onMouseClick);
     glutKeyboardFunc(onKeyPress);
