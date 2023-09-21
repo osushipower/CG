@@ -156,7 +156,7 @@ int main(int argc, char **argv)
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
     glutInitWindowSize(500, 500);
-    glutCreateWindow("CG - Aula 3 - Exercicio 2");
+    glutCreateWindow("CG - Aula 3 - Exercicio 3");
 
     glClearColor(0.0, 0.0, 0.0, 1.0);
     glMatrixMode(GL_PROJECTION);

@@ -29,7 +29,6 @@ void draw_pixel(int x, int y) {
     glFlush();
 }
 
-// Bresenham's Line Drawing Algorithm
 void bresenham(int x1, int y1, int x2, int y2) {
     int dx = abs(x2 - x1);
     int dy = abs(y2 - y1);
