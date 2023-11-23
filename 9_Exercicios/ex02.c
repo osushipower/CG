@@ -3,11 +3,11 @@
 #include <stdlib.h>
 
 // Define region codes for the four regions
-#define INSIDE 0
-#define LEFT 1
-#define RIGHT 2
-#define BOTTOM 4
-#define TOP 8
+#define INSIDE 0    // 0000
+#define LEFT 1      // 0001
+#define RIGHT 2     // 0010
+#define BOTTOM 4    // 0100
+#define TOP 8       // 1000
 
 // Viewport
 const int xMin = 100;
@@ -88,6 +88,8 @@ void cohenSutherlandClippingAlgorithm(int x1, int y1, int x2, int y2) {
     }
 
     if (accept) {
+        printf("x1 - x: %d | y: %d\n", x1, y1);
+        printf("x2 - x: %d | y: %d\n", x2, y2);
         glColor3f(0.0, 1.0, 0.0);
         glBegin(GL_LINES);
             glVertex2i(x1, y1);
